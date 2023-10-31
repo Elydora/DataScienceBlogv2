@@ -1,0 +1,20 @@
+project:
+  type: website
+
+website:
+  title: "DataScienceBlog"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/
+      - icon: twitter
+        href: https://twitter.com
+format:
+  html:
+    theme:
+      - Darkly
+      - custom.scss
+    css: styles.css
+    background-color: #252525
+    linkcolor: rgb(255, 219, 59)
